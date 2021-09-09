@@ -1,0 +1,467 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: Roboto;
+	color: #fff;
+	font-size: 18px;
+
+}
+body
+{
+	background-image: url(img/bg.jpg);
+	background-size:100% 420px;
+	background-repeat: no-repeat;
+	/*width: 100%;
+	height: 700px;*/
+	background-color: #EEEEEE;
+}
+nav{
+    background-color:rgba(0, 0, 0,0.8);
+    font-weight: bold;
+	
+	height: auto;
+
+
+}
+#A{
+	color:rgb(201, 194, 194);
+}
+
+
+#A:hover{
+    
+    background-color: rgba(0, 0, 0,0.7);
+    border: 2px solid white;
+    border-radius: 10px 10px;
+    width: 100px;
+    text-align: center;
+	color: orangered;
+
+}
+/*@media (max-width: 768px)
+{
+	.profile_div{height: auto;}
+}*/
+.header{
+	
+	height: auto;
+	width: 100%;
+/*	background-color: green;*/
+}
+.Cimg
+{
+	
+}
+.container_profile{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	/*padding: 50px;*/
+	display: grid;
+
+	grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+	padding: 10px;
+	box-sizing: border-box;
+}
+.profile
+{
+	background-color: rgba(0, 0, 0,0.8);
+	position: relative;
+	overflow: hidden;
+	margin-top: 100px;
+
+} 
+.description
+{
+	/*margin:20px; */
+	padding: 10px;
+}
+.BTN
+{
+	padding: 10px;
+	/*margin: auto;*/
+}
+.left
+{
+	margin: 30px 50px;
+	padding: 20px;
+}
+.right
+{
+	margin: 30px 50px;
+	padding: 20px;
+}
+#me1_img
+{
+	border-radius: 50px 50px 50px 50px;
+	
+
+}
+.main_body
+{
+	width: 100%;
+	height: auto;
+	margin-top: 100px;
+}
+.parent1{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 50px;
+	display: grid;
+
+	grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+	padding: 10px;
+	box-sizing: border-box;}
+
+.one
+{
+	background-color: rgba(0, 0, 0,0.8);
+	position: relative;
+	overflow: hidden;
+	margin: 20px 50px;
+	padding: 50px 20px 0px 20px;
+	
+}
+#Paragraph
+{
+	margin-top: 20px;
+}
+h2{
+	text-align: center;
+}
+.parent2{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 10px;
+	display: grid;
+
+	grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+	
+	box-sizing: border-box;}
+
+.ONE
+{
+	height: 100px;
+	width: 150px;
+	background-color: rgba(0, 0, 0,0.8);
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	margin: 20px 150px;
+	padding: 50px 20px 0px 20px;
+}
+
+
+ .skill
+ {
+ 	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	/*padding: 50px;*/
+	display: grid;
+
+	grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+	padding: 10px;
+	box-sizing: border-box;
+ }
+ .sk
+ {
+ 	background-color: rgba(0, 0, 0,0.8);
+	position: relative;
+	overflow: hidden;
+	margin-top: 50px;
+	/*margin-left: 30px;*/
+    width: 100px;
+ 	height: 50px;
+ 	text-align: center;
+ 	padding:10px;
+
+ 	/*margin:10px;*/
+ 	background-color: green;*/
+ 	box-shadow: red;
+
+ 	 background-color: rgba(0, 0, 0,0.7);
+    border: 2px solid white;
+    border-radius: 10px 10px;
+    width: 100px;
+    text-align: center;
+	color: orangered;
+
+
+ }
+ .Link
+ {
+ 	display: flex;
+ 	justify-content: center;
+ 	height: 50px;
+ 	width: auto;
+ }
+ .lnk
+ {
+ 	margin: 10px;
+ 	justify-content: center;
+ 	height: 50px;
+ 	width: auto;
+ 	 }
+/* mixIt up css start*/
+     
+    
+.col1
+{
+	background-color: rgba(0, 0, 0,0.8);
+	text-align: center;
+	box-shadow:  0 10px 10px orangered;
+	margin-left: 0px;
+	
+
+}
+.mix{
+	display: none;
+}
+.work{
+	padding: 100px 0;
+	background-attachment: fixed;
+}
+.header-area h4{
+
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+	font-weight: 800;
+	color:rgb(240, 235, 226);
+	/* text-transform: uppercase; */
+}
+.header-area h2{
+	padding-top: 100px;
+	font-family: "Raleway", sans-serif;
+	font-size: 32px;
+	font-weight: 800;
+	color:;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.filters ul {
+	padding: 0;
+	list-style: none;
+}
+.filters ul li{
+	padding: 8px 0;
+}
+.filters ul li a{
+	text-decoration: none;
+	font-family: "Raleway", sans-serif;
+	font-size: 13px;
+	font-weight: 700;
+	color: orange;
+	text-transform: uppercase;
+}
+.filters ul li:hover a{
+	color: orangered;
+}
+.active{
+	color: orangered !important;
+}
+/*  hover */
+#car
+{
+ position: relative;
+ display: flex;
+ align-items: flex-end;
+ padding: 30px;
+ transition: 0.6 ease-out;
+ box-shadow: 0 10px 10px rgba(0, 0, 0,0.6);
+
+}
+#car:hover{
+	transform: translateY(15px);
+}
+#car:hover:before
+{
+	opacity: 1;
+}
+#car:hover .team{
+	opacity: 1;
+	transform: translateY(0);
+}
+#car::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background:linear-gradient(to top, #000, transparent);
+	z-index: 2;
+	transition: 0.5s;
+	opacity: 0;
+}
+#car img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+
+}
+#car .team{
+	position: relative;
+	z-index: 3;
+	color: orangered;
+	opacity: 0;
+	transform: translateY(60px);
+	transition: 0.5s;
+
+
+}
+/*.team h3{
+	margin: 0;
+	font-family: Shrikhand;
+	letter-spacing: 3px;
+}
+.team p{
+	letter-spacing: 1px;
+	font-size: 20px;
+	margin-top: 8px;
+	font-family: Poppins;
+
+
+
+}*/
+
+/*  mixIt up Css end*/
+
+    
+.card
+{
+	margin-top:50px ;
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
+
+
+	padding: auto;
+	box-shadow: 0 10px 20px 0 white/*orangered*/;
+	transition: 0.5s;
+}
+.card-body
+{
+	height: 10px;
+	overflow: hidden;
+}
+.card:hover
+{
+	box-shadow: 0 8px 16px 0 orangered/*white*/;
+}
+.card-text
+{
+	color: rgb(0,0,0,0.6);
+}
+#HH
+{
+	text-align: center;
+	font-family: algerian;
+	margin-top: 10px;
+	color: rgb(0,0,0,0.6);
+}
+/*#HH::before
+{
+	content:attr(data-text); ;
+	width: 100%;
+	color: #2ed573;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-right: 0.4rem solid #2ed573;
+	animation: slide 3s linear infinite;
+	-webkit-animation: slide 3s linear infinite;
+	overflow: hidden;
+
+}
+@keyframes slide
+{
+	0%
+	{
+		width: 0%;
+	}
+	50%
+	{
+		width: 100%
+	}
+	100%
+	{
+		width: 0%;
+	}
+}*/
+/* contact*/
+/** {
+  box-sizing: border-box;
+}*/
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.containerLast {
+  /*border-radius: 5px;
+  background-color: #f2f2f2;*/
+  padding: 10px;
+  margin-top: 50px;
+   color: rgb(0,0,0,0.8);
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 10px;
+  padding: 20px;
+  color: rgb(0,0,0,0.8);
+}
+.contact_info{
+	margin-left: 20px;
+	margin-top: 10px;
+	color: rgb(0,0,0,0.8);
+}
+.map{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
